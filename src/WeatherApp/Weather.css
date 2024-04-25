@@ -1,0 +1,109 @@
+.container-fluid .row .col-lg-6 {
+    height: 600px;
+    background-color: rgb(83, 3, 159);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container-fluid .row .col-lg-6 .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    height: 150px;
+}
+
+.container-fluid .row .col-lg-6 .search .one input {
+    outline: none;
+    border: none;
+    font-weight: 600;
+    text-indent: 7px;
+    height: 29px;
+
+}
+
+.container-fluid .row .col-lg-6 .search .two img {
+    height: 29px;
+
+}
+
+.container-fluid .row .col-lg-6 .content {
+    height: 350px;
+}
+
+.container-fluid .row .col-lg-6 .content .imag img {
+    height: 150px;
+}
+
+.container-fluid .row .col-lg-6 .content .celcius h2 {
+
+    padding-top: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+.container-fluid .row .col-lg-6 .content .city h2 {
+    font-weight: 900;
+    color: white;
+    padding-top: 25px;
+    letter-spacing: 1px;
+
+}
+
+.last {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.element span {
+    height: 40px;
+    font-size: 50px;
+}
+
+@media(width<375px) {
+    .element span {
+        height: 40px;
+        font-size: 30px;
+        margin-bottom: -15px;
+    }
+
+    .element {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .data h6 {
+        margin-top: 0px;
+        font-weight: 600;
+    }
+    .container-fluid .row .col-lg-6 {
+        height: 650px;
+       
+    }
+    .container-fluid .row .col-lg-6 .search {
+       
+        margin-top: 20px;
+        height: 150px;
+    }
+}
+
+.data h6 {
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.data .lastname {
+    font-weight: 600;
+}
